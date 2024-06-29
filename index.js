@@ -11,11 +11,11 @@ const client = new OpenSeaStreamClient({
   }
 });
 
-client.onItemListed('collection-slug', (event) => {
+client.onItemListed('sunflower-land-collectibles', (event) => {
   console.log(event);
 });
 
-client.onItemSold('collection-slug', (event) => {
+client.onItemSold('sunflower-land-collectibles', (event) => {
   console.log(event);
 });
 
