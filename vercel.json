@@ -6,6 +6,5 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "api/index.mjs" }],
-  "includeFiles": ["node_modules/**"]
+  "routes": [{ "src": "/(.*)", "dest": "api/index.mjs" }]
 }
